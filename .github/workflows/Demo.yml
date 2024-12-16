@@ -34,16 +34,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-                      - name: Installation Instruction Action
-  # You may pin to the exact commit or the version.
-  # uses: instructions-d-installation/installation-instruction-action@84369f67016f10acbc5cbde1db10d9ae3b8e3275
-  uses: instructions-d-installation/installation-instruction-action@v0.1.2
-  with:
-    # Path to directory, file or a remote git repository url containing the config file.
-    path: 
-    # Options as string to pass to ibi cli. (Please check locally if it works.)
-    options: # optional
-    # Version of installation-instruction to use. If empty, uses the latest version.
-    version: # optional
-          
